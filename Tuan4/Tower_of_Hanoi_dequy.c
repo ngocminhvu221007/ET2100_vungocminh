@@ -1,8 +1,11 @@
 #include <stdio.h>
 void ToH (int n, char A, char B, char C) {
-  if (n==1) printf ("Move disk 1 from %c to %c", A, C);
+  if (n==1) {
+    printf ("Move disk 1 from %c to %c\n", A, C);
+    return;
+  }
   ToH (n-1, A, C, B);
-  printf ("Move disk %d from %c to %c, n, A, C);
+  printf ("Move disk %d from %c to %c\n", n, A, C);
   ToH (n-1, B, A, C);
 }
 int main() {
