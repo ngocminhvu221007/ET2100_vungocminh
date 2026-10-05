@@ -20,13 +20,13 @@ void ToH (int n, char nguon, char dich, char trung_gian){
   if (disk % 2 ==0) jump =2;
   else jump =1;
   }
-  else (n % 2 !=0); {
+  else {
   if (disk % 2==0) jump =1;
   else jump =2;
   }
   int tu_cot = vitri[disk];
   int den_cot = (jump + tu_cot) % 3;
-  printf ("Move disk %d form %c to %c \n", disk, cot[tu_cot], cot[den_cot]);
+  printf ("Move disk %d from %c to %c \n", disk, cot[tu_cot], cot[den_cot]);
   vitri[disk]= den_cot;
   }
   }
