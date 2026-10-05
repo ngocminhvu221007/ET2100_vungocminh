@@ -48,4 +48,63 @@ Mục tiêu là di chuyển toàn bộ đĩa từ cọc A sang cọc C theo 3 qu
 *   Bước 5: Lưu giá trị vị trí của cột và in ra.
 
 ## 2. Test cases
+### Test Case 1: 4 đĩa
+*   Input: `4`
+*   Output:
+    ```text
+    So dia: 4
+    Move disk 1 from A to B
+    Move disk 1 from B to C
+    Move disk 3 from A to B
+    Move disk 1 from C to A
+    Move disk 2 from C to B
+    Move disk 1 from A to B
+    Move disk 4 from A to C
+    Move disk 1 from B to C
+    Move disk 2 from B to A
+    Move disk 1 from C to A
+    Move disk 3 from B to C
+    Move disk 1 from A to B
+    Move disk 2 from A to C
+    Move disk 1 from B to C
+   
+    ```
+### Test Case 2: 5 đĩa
+*   Input: `5`
+*   Output:
+    ```text
+    So dia: 5
+    Move disk 1 form A to C
+    Move disk 2 form A to B
+    Move disk 1 form C to B
+    Move disk 3 form A to C
+    Move disk 1 form B to A
+    Move disk 2 form B to C
+    Move disk 1 form A to C
+    Move disk 4 form A to B
+    Move disk 1 form C to B
+    Move disk 2 form C to A
+    Move disk 1 form B to A
+    Move disk 3 form C to B
+    Move disk 1 form A to C
+    Move disk 2 form A to B
+    Move disk 1 form C to B
+    Move disk 5 form A to C
+    Move disk 1 form B to A
+    Move disk 2 form B to C
+    Move disk 1 form A to C
+    Move disk 3 form B to A
+    Move disk 1 form C to B
+    Move disk 2 form C to A
+    Move disk 1 form B to A
+    Move disk 4 form B to C
+    Move disk 1 form A to C
+    Move disk 2 form A to B
+    Move disk 1 form C to B
+    Move disk 3 form A to C
+    Move disk 1 form B to A
+    Move disk 2 form B to C
+    Move disk 1 form A to C
+
+   ```
 ---
