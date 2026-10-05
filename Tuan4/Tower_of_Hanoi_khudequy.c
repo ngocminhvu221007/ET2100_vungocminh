@@ -20,7 +20,7 @@ void ToH (int n, char nguon, char dich, char trung_gian){
   if (disk % 2 ==0) jump =2;
   else jump =1;
   }
-  else (n % 2 !=0) {
+  else (n % 2 !=0); {
   if (disk % 2==0) jump =1;
   else jump =2;
   }
