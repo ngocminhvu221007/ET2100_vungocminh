@@ -1,4 +1,4 @@
-# Bài toán: Tìm Tích Lớn Nhất Của Tập Con (Maximum Product Subset)
+# Tìm Tích Lớn Nhất Của Tập Con (Maximum Product Subset)
 
 - Cho một mảng số nguyên, hãy tìm một tập hợp con (chọn ra một số phần tử bất kỳ) sao cho tích của chúng là lớn nhất.
 
